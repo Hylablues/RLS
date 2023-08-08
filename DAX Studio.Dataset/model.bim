@@ -109,6 +109,7 @@
       },
       {
         "name": "2ea9d16c-6bf3-4169-92f2-16b3d4c7e1b5",
+        "crossFilteringBehavior": "bothDirections",
         "fromColumn": "PromotionKey",
         "fromTable": "Sales",
         "toColumn": "PromotionKey",
@@ -1141,7 +1142,7 @@
             "dataType": "double",
             "lineageTag": "c56d1a1d-2349-4af9-a2d8-d83b93c690b5",
             "sourceColumn": "Discount",
-            "summarizeBy": "sum"
+            "summarizeBy": "none"
           },
           {
             "name": "End Date",
