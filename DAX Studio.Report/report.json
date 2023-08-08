@@ -64,6 +64,15 @@
       "ordinal": 1,
       "visualContainers": [
         {
+          "config": "{\"name\":\"5c06fa9300230d0458d8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":720,\"y\":48,\"width\":560,\"height\":496,\"z\":1}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Category\":[{\"queryRef\":\"Store.CountryRegion\",\"active\":true}],\"Size\":[{\"queryRef\":\"Sales.Sales Amount\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Store\",\"Type\":0},{\"Name\":\"s1\",\"Entity\":\"Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"CountryRegion\"},\"Name\":\"Store.CountryRegion\",\"NativeReferenceName\":\"CountryRegion\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s1\"}},\"Property\":\"Sales Amount\"},\"Name\":\"Sales.Sales Amount\",\"NativeReferenceName\":\"Sales Amount\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 496.00,
+          "width": 560.00,
+          "x": 720.00,
+          "y": 48.00,
+          "z": 1.00
+        },
+        {
           "config": "{\"name\":\"cb3dc1dc04b52a00b977\",\"layouts\":[{\"id\":0,\"position\":{\"x\":47.70909090909091,\"y\":52.36363636363637,\"z\":0,\"width\":638.8363636363637,\"height\":491.05454545454546}}],\"singleVisual\":{\"visualType\":\"lineStackedColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Product.Brand\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Sales.Quantity)\"}],\"Y2\":[{\"queryRef\":\"Sales.Sales Amount\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Product\",\"Type\":0},{\"Name\":\"s\",\"Entity\":\"Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Brand\"},\"Name\":\"Product.Brand\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Quantity\"}},\"Function\":0},\"Name\":\"Sum(Sales.Quantity)\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Sales Amount\"},\"Name\":\"Sales.Sales Amount\",\"NativeReferenceName\":\"Sales Amount\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Quantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Default'\"}}}}}]}}}",
           "filters": "[]",
           "height": 491.05,
