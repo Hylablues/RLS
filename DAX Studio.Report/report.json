@@ -41,6 +41,15 @@
           "x": 47.71,
           "y": 52.36,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"e58e4063c089bc138d8b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":704,\"y\":48,\"width\":576,\"height\":496,\"z\":1}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Date.Date\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Date\"},\"Name\":\"Date.Date\",\"NativeReferenceName\":\"Date\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 496.00,
+          "width": 576.00,
+          "x": 704.00,
+          "y": 48.00,
+          "z": 1.00
         }
       ],
       "width": 1280.00
